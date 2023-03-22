@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings build="845">
+  <gps port="" baudRate="" useGPS="1" useAPI="1" activeMode="0" hdopCoef="5" bgLocationMode="plugged" adjustSystemTime="0"/>
+  <interface useSystemKeyboard="1" language="russian" layouts="english; russian" activeLayout="russian" matchWordBeginning="1" baseTime="local" backlight="0" orientation="vert; hor; vertRev; horRev" dpi="0" soundDelay="500" soundScheme="default" soundVolume="65535" muteSound="1" showLaunchNotice="0" showAddonsDisclaimer="0" showMapZoomButtons="1" selectAddonsFolder="1" mainFormTimeout="10" autoEditWaypoint="1"/>
+  <map path="maps" atlas="maps;maps/ru_kemerovo" map3D="0" skyRatio="0" rotateMap="0" writeTrack="1" showTrack="1" smoothing="0" smoothMoving="0" smoothMovingMinSpeed="20" bindToRoad="0" bindToRoute="0" bindDistance="20" predictPosition="0" rotateDamper="0" mapZoomFix="1" showCurrentGoal="0" poiViewMode="filter">
+    <scale cityDefault="200" settlement="200" smallCity="200" mediumCity="400" bigCity="400" house="100" turn="50" streetScreenIndent="1">
+      <smoothScale on="1" duration="500" frames="5"/>
+      <autoScale on="0" new="1" route="0" preserveUserScale="0" delay="2000" min="25" max="400" minSpeed="40" maxSpeed="140" speed1="40" speed2="70" scale1="25" scale2="50" scale3="100" avgTime="20"/>
+    </scale>
+  </map>
+  <navigation shortestOrFastestRoute="1" avoidUnpavedRoads="1" avoidUTurns="1" avoidDifficultTurns="0" pedestrianSpeed="1" pedestrianRatio="8" sharpTurnCurvature="700" turnJoinDistance="30" showEntireRoute="0" entireRouteTimeOut="10">
+    <speedLimit changeSound="no" changeIndicator="decrease" currentIndicator="speeding" avgSpeedTime="10" speedingThreshold="20" speedingSound="1" repeatInterval="0" incMinDistance="100" decMinDistance="100"/>
+    <finishTime avgSpeedTime="300" maxStopTime="1800" maxAvgSpeedDistance="1000" simpleTurnTime="10" difficultTurnTime="20"/>
+    <secondTurn show="1" metresBeforeFirst="1000" metresAfterFirst="1000"/>
+    <lanes show="1" distance="500"/>
+  </navigation>
+  <search placeDistance1="150" placeDistance2="1000" placeDistance3="5000" infoListRadius="5" infoListMaxCount="100" goalsHistorySize="20" autoSelectEntryPoint="0"/>
+  <speedcam angle="10" minTime="5" changeTime="2" showOnMap="1" mapMaxScale="400"/>
+  <trackIndicators>
+    <indicator id="DistanceTotalIndicator" controlId="indicator1"/>
+    <indicator id="DistanceTrafficIndicator1" controlId="indicator2"/>
+    <indicator id="DistanceTotalIndicator1" controlId="indicator3"/>
+    <indicator id="TimeMovingIndicator1" controlId="indicator4"/>
+    <indicator id="TimeStopIndicator1" controlId="indicator5"/>
+    <indicator id="TimeTrafficIndicator1" controlId="indicator6"/>
+    <indicator id="MaxSpeedIndicator1" controlId="indicator7"/>
+    <indicator id="AvgSpeedIndicator1" controlId="indicator8"/>
+  </trackIndicators>
+  <log on="0" route="0" render="0" gps="1"/>
+  <skin guiDay="default" guiNight="default" mapDay="default" mapNight="default" dayNightMode="auto">
+    <params name="default" ppi="0"/>
+  </skin>
+  <userData fileFormat="gpx" useCellular="0" contentPath="content"/>
+  <system mapCacheSize="0" picturesCacheSize="0"/>
+  <statistics server="" sendInterval="60"/>
+</settings>
