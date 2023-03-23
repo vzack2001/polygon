@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <settings build="845">
-  <gps port="" baudRate="" useGPS="1" useAPI="1" activeMode="0" hdopCoef="5" bgLocationMode="plugged" adjustSystemTime="0"/>
-  <interface useSystemKeyboard="1" language="russian" layouts="english; russian" activeLayout="russian" matchWordBeginning="1" baseTime="local" backlight="0" orientation="vert; hor; vertRev; horRev" dpi="0" soundDelay="500" soundScheme="default" soundVolume="65535" muteSound="1" showLaunchNotice="0" showAddonsDisclaimer="0" showMapZoomButtons="1" selectAddonsFolder="1" mainFormTimeout="10" autoEditWaypoint="1"/>
+  <gps port="1" baudRate="9600" useGPS="1" useAPI="0" activeMode="0" hdopCoef="5" bgLocationMode="on" adjustSystemTime="1"/>
+  <interface useSystemKeyboard="1" language="russian" layouts="english; russian" activeLayout="russian" matchWordBeginning="1" baseTime="local" backlight="0" orientation="vert; hor; vertRev; horRev" dpi="0" soundDelay="500" soundScheme="default" soundVolume="65535" muteSound="1" showLaunchNotice="0" showAddonsDisclaimer="0" showMapZoomButtons="1" selectAddonsFolder="0" mainFormTimeout="10" autoEditWaypoint="1"/>
   <map path="maps" atlas="maps;maps/ru_kemerovo" map3D="0" skyRatio="0" rotateMap="0" writeTrack="1" showTrack="1" smoothing="0" smoothMoving="0" smoothMovingMinSpeed="20" bindToRoad="0" bindToRoute="0" bindDistance="20" predictPosition="0" rotateDamper="0" mapZoomFix="1" showCurrentGoal="0" poiViewMode="filter">
     <scale cityDefault="200" settlement="200" smallCity="200" mediumCity="400" bigCity="400" house="100" turn="50" streetScreenIndent="1">
       <smoothScale on="1" duration="500" frames="5"/>
